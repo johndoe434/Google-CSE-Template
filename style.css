@@ -6,20 +6,11 @@ body, html {
   height: 90%;
   display: grid;
   zoom: 135%;
+  font: inherit;
 }
 
 .container {
   margin: auto;
-}
-
-@font-face {
-  font-family: 'BurbankBigCDB';
-  src: url('BurbankBigCondensed-Black.otf');
-}
-
-.text {
-  color: #6441A4;
-  font-family: BurbankBigCDB;
 }
 
 #searchbar {
